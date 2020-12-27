@@ -3,7 +3,7 @@
     <v-main>
       <v-container class="pa-0">
         <v-card flat width="21.6cm" height="27.9cm" class="mx-auto d-flex flex-column" tile outlined>
-          <v-card-title class="pa-0 align-end white--text pl-7"
+          <v-card-title class="pa-0 align-end white--text pl-5"
                         style="background:linear-gradient(60deg, #DA22FF 20%, #9733EE 80%)">
             <div class="mt-2" style="width:150px;position:absolute;top:0;left:28px">
               <h4 class="my-0 text-center">Juan Fernando</h4>
@@ -31,11 +31,10 @@
               jfdeder@gmail.com
             </div>
           </v-card-title>
-          <v-card-text class="pa-0 d-flex grow">
-            <div class="pa-4 weak"
-                 :style="'background:#F9F9F9;border-right: 1px solid' + '#e0e0e0' + '!important'">
-              <h3 class="text-center" style="margin:70px 0 15px">Skills</h3>
-              <v-list class="mb-4" subheader outlined>
+          <v-card-text class="pa-0 d-flex grow grey lighten-4">
+            <div class="pa-5 pr-0">
+              <h3 class="text-center" style="margin:70px 0 20px">Skills</h3>
+              <v-list class="mb-5" subheader outlined>
                 <v-subheader style="height: 30px">Backend</v-subheader>
                 <v-list-item dense>
                   <v-list-item-avatar tile size="30">
@@ -85,7 +84,7 @@
                 </v-list-item>
               </v-list>
 
-              <v-list class="mb-4" subheader outlined>
+              <v-list class="mb-5" subheader outlined>
                 <v-subheader style="height: 30px">Systems</v-subheader>
                 <v-list-item dense>
                   <v-list-item-avatar tile size="30">
@@ -116,65 +115,98 @@
                     <v-list-item-title>Kubernetes</v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
+
+                <v-list-item dense>
+                  <v-list-item-avatar tile size="30">
+                    <v-icon large color="black">mdi-linux</v-icon>
+                  </v-list-item-avatar>
+                  <v-list-item-content>
+                    <v-list-item-title>Linux</v-list-item-title>
+                    <v-list-item-subtitle>Ubuntu</v-list-item-subtitle>
+                  </v-list-item-content>
+                </v-list-item>
               </v-list>
             </div>
-            <div class="d-flex flex-column" style="justify-content: space-evenly;">
+            <div class="d-flex flex-column" style="justify-content: space-evenly">
               <v-alert icon="mdi-account-tie" border="left" color="#9733EE" colored-border
-                       elevation="1" dense class="mb-0 mx-11">
+                       elevation="1" dense class="mb-0 mx-6">
                 <h4 class="mt-1 mb-4">Profile</h4>
-                <p class="caption font-weight-light text-justify">
-                  Experienced web developer, adept with software development stages such as; design, automated testing,
-                  debugging, deployment and maintenance. Proficient in REST/GRAPHQL API development, responsive web UI
-                  design and creation, and integrating both API and UI through multi or single page application designs.
-                  Bringing forth knowledge in development and deployment environments configuration under the concepts of
-                  containers, and clusters for deployment infrastructures, complementing with knowledge in event-driven and
-                  microservice architecture patterns. Adroit at integrating secure practices against OWASP's most common
-                  security vulnerabilities in both development and deployment scenarios.
+                <p class="caption">
+                  Experienced backend developer, adept with cloud native
+                  applications design, development, automated feature and unit
+                  testing, debugging, profiling, containerization, deployment
+                  and maintenance, following the Scrum agile methodology. With
+                  knowledge in handling large sets of data for its analysis,
+                  transformation and presentation. Proficient in applying secure
+                  software development and deployment practices.
                 </p>
               </v-alert>
 
               <v-alert icon="mdi-briefcase-variant" border="left" color="#9733EE" colored-border
-                       elevation="1" dense class="mb-0 mx-11">
+                       elevation="1" dense class="mb-0 mx-6">
                 <h4 class="my-1">Experience</h4>
                 <v-list-item>
                   <v-list-item-content>
                     <v-list-item-title class="subtitle-2">
-                      Analyst/Developer at <i>Pagoagil</i> payment gateway.
+                      Semi senior developer at <i>Fit ideas</i>.
                     </v-list-item-title>
-                    <v-list-item-subtitle class="caption">November 2019 - Now</v-list-item-subtitle>
+                    <v-list-item-subtitle class="caption">Octuber 2020 - Now</v-list-item-subtitle>
                     <ul class="caption">
                       <li>
-                        Development and testing new API exposing transaction validating and registering functionality for
-                        third party companies to consume
+                        Extract, transform and load Amazon Glue job development
+                        for partitioning audit data, based on certain criteria.
                       </li>
                       <li>
-                        Development of transaction authorization system, based of consulted data from credit bureaus and
-                        fraud detection metrics
+                        Microservice and event-driven arquitecture API
+                        test driven development using Flask and SQLAlchemy.
                       </li>
                       <li>
-                        Deployment in Google Cloud Platform, with an asynchronous event-driven and microservice architecture
-                        through cluster setups
+                        Aggregation and preparation of large datasets comming
+                        from electrical measuring devices.
+                      </li>
+                    </ul>
+                  </v-list-item-content>
+                </v-list-item><v-list-item>
+                  <v-list-item-content>
+                    <v-list-item-title class="subtitle-2">
+                      Junior Analyst at <i>Pagoagil</i> payment gateway.
+                    </v-list-item-title>
+                    <v-list-item-subtitle class="caption">November 2019 - September 2020</v-list-item-subtitle>
+                    <ul class="caption">
+                      <li>
+                        Development and testing transaction validating and
+                        registering functionality.
                       </li>
                       <li>
-                        Secure development and deployment practices, such as encryption, secure protocols and
-                        authentication/authorization systems
+                        Development of transaction authorization system, based
+                        of consulted data from credit bureaus.
+                      </li>
+                      <li>
+                        Deployment in Google Cloud Platform, with an
+                        asynchronous event-driven and microservice architecture
+                        with cluster setups.
+                      </li>
+                      <li>
+                        Secure development and deployment practices, such as
+                        encryption, secure protocols and
+                        authentication/authorization systems.
                       </li>
                     </ul>
                   </v-list-item-content>
                 </v-list-item>
+
                 <v-list-item>
                   <v-list-item-content>
                     <v-list-item-title class="subtitle-2">
-                      Backend developer - Orders and shops catalogs web site.
+                      Multiple shops freelance project.
                     </v-list-item-title>
                     <v-list-item-subtitle class="caption">May 2020 - July 2020</v-list-item-subtitle>
                     <ul class="caption">
                       <li>
-                        Backend REST API TDD featuring; authentication, orders, search engine, shops/products
-                        and admin panel modules
-                      </li>
-                      <li>
-                        Final web site deployment on linux virtual machine with GCP's Compute Engine service
+                        Backend REST API test driven development featuring;
+                        authentication, orders, search engine, shops/products
+                        and admin panel modules. Deployed on Google Cloud
+                        Platform's Compute Engine service.
                       </li>
                     </ul>
                   </v-list-item-content>
@@ -182,12 +214,12 @@
                 <v-list-item>
                   <v-list-item-content>
                     <v-list-item-title class="subtitle-2">
-                      Full stack web developer - Tourism agency web site.
+                      Tourism agency freelance project.
                     </v-list-item-title>
                     <v-list-item-subtitle class="caption">July 2016 - October 2016</v-list-item-subtitle>
                     <ul class="caption">
                       <li>
-                        Backend and responsive frontend UI, featuring travel planes and products catalog. Deployed
+                        Backend and responsive frontend UI, featuring travels and products catalog. Deployed
                         on BlueHost web hosting
                       </li>
                     </ul>
