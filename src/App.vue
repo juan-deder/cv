@@ -44,6 +44,7 @@
                     <v-list-item-title>Python</v-list-item-title>
                     <v-list-item-subtitle>SQLAlchemy</v-list-item-subtitle>
                     <v-list-item-subtitle>Pandas</v-list-item-subtitle>
+                    <v-list-item-subtitle>Numpy</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
 
@@ -53,6 +54,15 @@
                   </v-list-item-avatar>
                   <v-list-item-content>
                     <v-list-item-title>Flask</v-list-item-title>
+                  </v-list-item-content>
+                </v-list-item>
+
+                <v-list-item dense>
+                  <v-list-item-avatar tile size="30">
+                    <v-img src="@/assets/django.png"></v-img>
+                  </v-list-item-avatar>
+                  <v-list-item-content>
+                    <v-list-item-title>Django</v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
 
@@ -92,8 +102,7 @@
                   </v-list-item-avatar>
                   <v-list-item-content>
                     <v-list-item-title>AWS</v-list-item-title>
-                    <v-list-item-subtitle>SQS</v-list-item-subtitle>
-                    <v-list-item-subtitle>S3</v-list-item-subtitle>
+                    <v-list-item-subtitle>SQS, S3</v-list-item-subtitle>
                     <v-list-item-subtitle>Glue</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
@@ -148,9 +157,35 @@
                 <v-list-item>
                   <v-list-item-content>
                     <v-list-item-title class="subtitle-2">
-                      Semi senior developer at <i>Fit ideas</i>.
+                      SSr Adv Python Developer at <i>Globant</i>.
                     </v-list-item-title>
-                    <v-list-item-subtitle class="caption">Octuber 2020 - Now</v-list-item-subtitle>
+                    <v-list-item-subtitle class="caption">April 2021 - Now</v-list-item-subtitle>
+                    <ul class="caption">
+                      <li>
+                        Architecture and project structure design, and development
+                        of a virtual presence tool in the format of a multiplayer
+                        Django web app game, featuring third party service
+                        integrations with Google Calendar, Zoom and Slack.
+                      </li>
+                      <li>
+                        Definition and implementation of containerized project
+                        deployment workflow, throughout Docker and Docker Compose.
+                      </li>
+                      <li>
+                        Implementation of game server network and logic, through
+                        the use of websockets protocol, for real time state
+                        synchronization across multiple clients.
+                      </li>
+                    </ul>
+                  </v-list-item-content>
+                </v-list-item>
+
+                <v-list-item>
+                  <v-list-item-content>
+                    <v-list-item-title class="subtitle-2">
+                      SSr Developer at <i>Fit ideas</i>.
+                    </v-list-item-title>
+                    <v-list-item-subtitle class="caption">Octuber 2020 - March 2021</v-list-item-subtitle>
                     <ul class="caption">
                       <li>
                         Extract, transform and load Amazon Glue job development
@@ -166,7 +201,8 @@
                       </li>
                     </ul>
                   </v-list-item-content>
-                </v-list-item><v-list-item>
+                </v-list-item>
+                <v-list-item>
                   <v-list-item-content>
                     <v-list-item-title class="subtitle-2">
                       Junior Analyst at <i>Pagoagil</i> payment gateway.
@@ -190,37 +226,6 @@
                         Secure development and deployment practices, such as
                         encryption, secure protocols and
                         authentication/authorization systems.
-                      </li>
-                    </ul>
-                  </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item>
-                  <v-list-item-content>
-                    <v-list-item-title class="subtitle-2">
-                      Multiple shops freelance project.
-                    </v-list-item-title>
-                    <v-list-item-subtitle class="caption">May 2020 - July 2020</v-list-item-subtitle>
-                    <ul class="caption">
-                      <li>
-                        Backend REST API test driven development featuring;
-                        authentication, orders, search engine, shops/products
-                        and admin panel modules. Deployed on Google Cloud
-                        Platform's Compute Engine service.
-                      </li>
-                    </ul>
-                  </v-list-item-content>
-                </v-list-item>
-                <v-list-item>
-                  <v-list-item-content>
-                    <v-list-item-title class="subtitle-2">
-                      Tourism agency freelance project.
-                    </v-list-item-title>
-                    <v-list-item-subtitle class="caption">July 2016 - October 2016</v-list-item-subtitle>
-                    <ul class="caption">
-                      <li>
-                        Backend and responsive frontend UI, featuring travels and products catalog. Deployed
-                        on BlueHost web hosting
                       </li>
                     </ul>
                   </v-list-item-content>
