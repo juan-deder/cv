@@ -5,16 +5,15 @@
         <v-card flat width="21.6cm" height="27.9cm" class="mx-auto d-flex flex-column" tile outlined>
           <v-card-title class="pa-0 align-end white--text pl-5"
                         style="background:linear-gradient(60deg, #DA22FF 20%, #9733EE 80%)">
-            <div class="mt-2" style="width:150px;position:absolute;top:0;left:28px">
-              <h4 class="my-0 text-center">Juan Fernando</h4>
-              <h5 class="my-0 text-center">Dederlé Baena</h5>
+            <div class="mt-6" style="width:150px;position:absolute;top:0">
+              <h4 class="my-0 text-center">Juan Dederlé</h4>
             </div>
             <v-img height="150" max-width="150" class="rounded-circle elevation-5"
-                   src="@/assets/profile.jpeg" style="transform:translateY(50%)">
+                   src="@/assets/profile.jpg" style="transform:translateY(50%)">
             </v-img>
-            <div class="ma-2 grow font-italic text-center text-uppercase align-self-center"
+            <div class="ma-2 grow text-center align-self-center"
                  style="text-shadow:2px 2px 0 #2f2f2f">
-              Backend developer
+              Python Developer
             </div>
             <div class="subtitle-2 ma-2">
               <v-avatar color="white" class="ma-2" size="29">
@@ -45,24 +44,8 @@
                     <v-list-item-subtitle>SQLAlchemy</v-list-item-subtitle>
                     <v-list-item-subtitle>Pandas</v-list-item-subtitle>
                     <v-list-item-subtitle>Numpy</v-list-item-subtitle>
-                  </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item dense>
-                  <v-list-item-avatar tile size="30">
-                    <v-img src="@/assets/flask.png"></v-img>
-                  </v-list-item-avatar>
-                  <v-list-item-content>
-                    <v-list-item-title>Flask</v-list-item-title>
-                  </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item dense>
-                  <v-list-item-avatar tile size="30">
-                    <v-img src="@/assets/django.png"></v-img>
-                  </v-list-item-avatar>
-                  <v-list-item-content>
-                    <v-list-item-title>Django</v-list-item-title>
+                    <v-list-item-subtitle>Flask</v-list-item-subtitle>
+                    <v-list-item-subtitle>Django</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
 
@@ -102,8 +85,6 @@
                   </v-list-item-avatar>
                   <v-list-item-content>
                     <v-list-item-title>AWS</v-list-item-title>
-                    <v-list-item-subtitle>SQS, S3</v-list-item-subtitle>
-                    <v-list-item-subtitle>Glue</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
 
@@ -131,7 +112,6 @@
                   </v-list-item-avatar>
                   <v-list-item-content>
                     <v-list-item-title>Linux</v-list-item-title>
-                    <v-list-item-subtitle>Ubuntu</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
               </v-list>

@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  cv:
+    build: .
+    image: cv
+    container_name: cv
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "8080:8080"
