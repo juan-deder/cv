@@ -75,6 +75,15 @@
                     <v-list-item-title>MySQL</v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
+
+                <v-list-item dense>
+                  <v-list-item-avatar tile size="30">
+                    <v-img src="@/assets/elasticsearch.jpg"></v-img>
+                  </v-list-item-avatar>
+                  <v-list-item-content>
+                    <v-list-item-title>Elasticsearch</v-list-item-title>
+                  </v-list-item-content>
+                </v-list-item>
               </v-list>
 
               <v-list class="mb-5" subheader outlined>
@@ -108,10 +117,10 @@
 
                 <v-list-item dense>
                   <v-list-item-avatar tile size="30">
-                    <v-icon large color="black">mdi-linux</v-icon>
+                    <v-img src="@/assets/gcp.png"></v-img>
                   </v-list-item-avatar>
                   <v-list-item-content>
-                    <v-list-item-title>Linux</v-list-item-title>
+                    <v-list-item-title>GCP</v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
               </v-list>
@@ -121,13 +130,11 @@
                        elevation="1" dense class="mb-0 mx-6">
                 <h4 class="mt-1 mb-4">Profile</h4>
                 <p class="caption">
-                  Experienced backend developer, adept with cloud native
-                  applications design, development, automated feature and unit
-                  testing, debugging, profiling, containerization, deployment
-                  and maintenance, following the Scrum agile methodology. With
-                  knowledge in handling large sets of data for its analysis,
-                  transformation and presentation. Proficient in applying secure
-                  software development and deployment practices.
+                  Experienced backend developer with a strong background in cloud-native application design,
+                  development, automated testing, debugging, profiling, containerization, deployment, and maintenance.
+                  Proficient in Scrum agile methodology and skilled in handling large datasets for analysis,
+                  transformation, and presentation. Committed to applying secure software development and deployment
+                  practices.
                 </p>
               </v-alert>
 
@@ -137,24 +144,18 @@
                 <v-list-item>
                   <v-list-item-content>
                     <v-list-item-title class="subtitle-2">
-                      SSr Adv Python Developer at <i>Globant</i>.
+                      Senior Python Developer at <i>Globant</i>.
                     </v-list-item-title>
                     <v-list-item-subtitle class="caption">April 2021 - Now</v-list-item-subtitle>
                     <ul class="caption">
-                      <li>
-                        Architecture and project structure design, and development
-                        of a virtual presence tool in the format of a multiplayer
-                        Django web app game, featuring third party service
-                        integrations with Google Calendar, Zoom and Slack.
+                      <li>Designed and developed a virtual presence tool in the form of a multiplayer Django web app
+                        game, featuring seamless third-party service integrations with Google Calendar, Zoom, and Slack.
                       </li>
-                      <li>
-                        Definition and implementation of containerized project
-                        deployment workflow, throughout Docker and Docker Compose.
+                      <li>Pioneered the implementation of a containerized project deployment workflow using Docker and
+                        Docker Compose.
                       </li>
-                      <li>
-                        Implementation of game server network and logic, through
-                        the use of websockets protocol, for real time state
-                        synchronization across multiple clients.
+                      <li>Engineered the game server network and logic utilizing websockets protocol, ensuring real-time
+                        state synchronization across multiple clients.
                       </li>
                     </ul>
                   </v-list-item-content>
@@ -163,21 +164,18 @@
                 <v-list-item>
                   <v-list-item-content>
                     <v-list-item-title class="subtitle-2">
-                      SSr Developer at <i>Fit ideas</i>.
+                      Semisenior Developer at <i>Fit ideas</i>.
                     </v-list-item-title>
                     <v-list-item-subtitle class="caption">Octuber 2020 - March 2021</v-list-item-subtitle>
                     <ul class="caption">
-                      <li>
-                        Extract, transform and load Amazon Glue job development
-                        for partitioning audit data, based on certain criteria.
+                      <li>Spearheaded the development of Extract, Transform, and Load (ETL) Amazon Glue jobs,
+                        implementing data partitioning based on specific criteria.
                       </li>
-                      <li>
-                        Microservice and event-driven arquitecture API
-                        test driven development using Flask and SQLAlchemy.
+                      <li>Contributed to microservice and event-driven architecture API development with a test-driven
+                        approach using Flask and SQLAlchemy.
                       </li>
-                      <li>
-                        Aggregation and preparation of large datasets comming
-                        from electrical measuring devices.
+                      <li>Managed the aggregation and preparation of extensive datasets from electrical measuring
+                        devices.
                       </li>
                     </ul>
                   </v-list-item-content>
@@ -185,27 +183,21 @@
                 <v-list-item>
                   <v-list-item-content>
                     <v-list-item-title class="subtitle-2">
-                      Junior Analyst at <i>Pagoagil</i> payment gateway.
+                      Junior Analyst at <i>Pagoagil</i>.
                     </v-list-item-title>
                     <v-list-item-subtitle class="caption">November 2019 - September 2020</v-list-item-subtitle>
                     <ul class="caption">
-                      <li>
-                        Development and testing transaction validating and
-                        registering functionality.
+                      <li>Played a pivotal role in the development and testing of transaction validation and
+                        registration functionality.
                       </li>
-                      <li>
-                        Development of transaction authorization system, based
-                        of consulted data from credit bureaus.
+                      <li>Designed and implemented a transaction authorization system, leveraging data consulted from
+                        credit bureaus.
                       </li>
-                      <li>
-                        Deployment in Google Cloud Platform, with an
-                        asynchronous event-driven and microservice architecture
-                        with cluster setups.
+                      <li>Successfully deployed solutions on Google Cloud Platform with an asynchronous event-driven and
+                        microservice architecture.
                       </li>
-                      <li>
-                        Secure development and deployment practices, such as
-                        encryption, secure protocols and
-                        authentication/authorization systems.
+                      <li>Implemented robust secure development and deployment practices, including encryption, secure
+                        protocols, and authentication/authorization systems.
                       </li>
                     </ul>
                   </v-list-item-content>
